@@ -23,3 +23,7 @@ allprojects {
         maven { url "https://clojars.org/repo" }
     }
 }
+
+plugins {
+  id "org.sonarqube" version "2.7"
+}
